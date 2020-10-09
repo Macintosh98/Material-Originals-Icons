@@ -1,0 +1,35 @@
+[Icon Theme]
+Name=Material-Originals
+Example=folder
+Inherits=breeze,Yaru,elementary,deepin,Adwaita,gnome,hicolor
+
+# KDE Specific Stuff
+DisplayDepth=32
+
+DesktopDefault=48
+DesktopSizes=16,24,32,48,64,72,96,128
+ToolbarDefault=24
+ToolbarSizes=16,24,32,48
+MainToolbarDefault=24
+MainToolbarSizes=16,24,32,48
+SmallDefault=16
+SmallSizes=16,24,32,48
+PanelDefault=48
+PanelSizes=16,24,32,48,64,72,96,128
+
+# Directory list
+Directories=scalable/apps,places
+
+[scalable/apps]
+Context=Applications
+Size=16
+MinSize=8
+MaxSize=512
+Type=Scalable
+
+[places]
+Context=Places
+Size=64
+MinSize=16
+MaxSize=512
+Type=Scalable
